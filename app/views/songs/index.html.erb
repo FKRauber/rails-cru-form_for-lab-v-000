@@ -1,1 +1,3 @@
-<p><%= @song.name %></p>
+<% @songs.each do |song| %>
+  <p><%= song.name %></p>
+<% end %>
